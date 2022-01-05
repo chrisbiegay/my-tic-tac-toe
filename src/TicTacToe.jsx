@@ -10,6 +10,7 @@ export default function TicTacToe() {
   function resetGame() {
     setWinner(null)
     setShouldResetBoard(true)
+    setWhosTurn('X')
   }
 
   function getGameMessage() {
