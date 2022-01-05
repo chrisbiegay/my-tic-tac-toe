@@ -1,0 +1,19 @@
+.tic-tac-toe-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2px;
+    column-gap: 2px;
+
+    width: 229px;          /* 3 squares + 2 borders */
+    margin: 20px auto;
+    background-color: #000;
+}
+
+.tic-tac-toe-square {
+    height: 75px;
+    line-height: 75px;     /* centers text vertically */
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #FFF
+}

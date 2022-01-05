@@ -1,0 +1,26 @@
+:root {
+    --base-font-size: 20px;
+    --base-font-family: sans-serif;
+}
+
+.app {
+    font-size: var(--base-font-size);
+    font-family: var(--base-font-family);
+    text-align: center;
+}
+
+button {
+    font-size: var(--base-font-size);
+    font-family: var(--base-font-family);
+    padding: 10px 15px;
+}
+
+.game-title {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.message-area {
+    min-height: 30px;
+    margin-bottom: 10px;
+}
